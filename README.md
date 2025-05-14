@@ -16,6 +16,7 @@ Intalacion y puesta en marcha (test-1.py)
 # Linux Terminal
 
   Comando para revisar los 5 procesos que mas memoria consumen 
+  - top -b -n 1 | head -n 12  | tail -n 5
   - watch "ps aux | sort -nrk 3,3 | head -n 5"
 
   Crear usuario y asignar password
