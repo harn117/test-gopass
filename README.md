@@ -5,13 +5,15 @@ Prueba tecnica para goopass
 Intalacion y puesta en marcha (test-1.py)
 
   Linux
-  python3 --version
-
-  python3 /carpeta_contenedora/archivo.py
-
-  El resultado se vera por consola
+  - python3 --version
+  - python3 /carpeta_contenedora/archivo.py
+  - El resultado se vera por consola
 
 # Postgres
+
+  - Para la instalacion de postgres se utilizo docker para generar un contenedor y la instancia de postgres.
+  - Se deja el scrip en el archivo postgres.sql con los comandos para la creacion y consultas definidas.
+  - Se deja el archivo test-pg.py con el codigo para la creacion de usuario y listado de los mismos.
 
 # Linux Terminal
 
