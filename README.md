@@ -12,6 +12,7 @@ Intalacion y puesta en marcha (test-1.py)
 # Postgres
 
   - Para la instalacion de postgres se utilizo docker para generar un contenedor y la instancia de postgres.
+          - comando para doceker -- docker-compose up -d --
   - Se deja el scrip en el archivo postgres.sql con los comandos para la creacion y consultas definidas.
   - Se deja el archivo test-pg.py con el codigo para la creacion de usuario y listado de los mismos.
 
